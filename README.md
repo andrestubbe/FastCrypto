@@ -230,10 +230,10 @@ Download the latest pre-compiled JARs:
 
 ## Documentation
 
-* **[`docs/REFERENCE.md`](docs/REFERENCE.md)**: Full cryptographic specifications and parameters.
-* **[`docs/PHILOSOPHY.md`](docs/PHILOSOPHY.md)**: The engineering rationale for CPU-direct zero-overhead cryptography.
-* **[`docs/ROADMAP.md`](docs/ROADMAP.md)**: Future milestones (ChaCha20-Poly1305, Ed25519 signatures).
-* **[`docs/CHANGELOG.md`](docs/CHANGELOG.md)**: Detailed version history.
+* **[REFERENCE.md](docs/REFERENCE.md)**: Full cryptographic specifications and parameters.
+* **[PHILOSOPHY.md](docs/PHILOSOPHY.md)**: The engineering rationale for CPU-direct zero-overhead cryptography.
+* **[ROADMAP.md](docs/ROADMAP.md)**: Future milestones (ChaCha20-Poly1305, Ed25519 signatures).
+* **[CHANGELOG.md](docs/CHANGELOG.md)**: Detailed version history.
 
 ---
 
