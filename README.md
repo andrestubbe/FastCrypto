@@ -16,17 +16,6 @@
 
 ## Quick Start
 
-### 1. Run Interactive Showcase Demo
-```cmd
-run-demo.bat
-```
-
-### 2. Run Latency & Throughput Benchmark
-```cmd
-run-benchmark.bat
-```
-
-### 3. Programmatic Java API
 ```java
 import fastcrypto.FastCrypto;
 import java.nio.charset.StandardCharsets;
