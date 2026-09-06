@@ -151,7 +151,7 @@ Empirical latency and throughput benchmarks measured on Windows 11 with AES-NI h
 | **Memory Sanitization** | Key / Plaintext Wipe | Non-scrubbed (GC Heap) | **< 0.05 µs** | **100% Zero-Leak (`SecureZeroMemory`)** |
 
 > [!NOTE]
-> **Environment & Setup**: Measured on an Intel Core i7 with Windows 11 x64, OpenJDK 21 LTS, with direct CPU AES-NI instructions and Windows CNG kernel driver. By bypassing the JCA/JCE provider lookup and eliminating GC heap buffer churning, `FastCrypto` delivers predictable sub-microsecond encryption for high-frequency trading, live 120+ FPS video pipelines, and IPC.
+> **Environment & Setup**: Measured on a **Microsoft Surface Pro 8** (11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz, 4C/8T), Windows 11 Home (x64), OpenJDK 21 LTS with direct CPU AES-NI instructions and Windows CNG kernel driver. By bypassing the JCA/JCE provider lookup and eliminating GC heap buffer churning, `FastCrypto` delivers predictable sub-microsecond encryption for high-frequency trading, live 120+ FPS video pipelines, and IPC.
 
 ---
 
