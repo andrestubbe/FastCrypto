@@ -1,8 +1,14 @@
-﻿# Changelog
+# Changelog
 
 All notable changes to **FastCrypto** will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+
+## [0.1.1] - 2026-09-07
+
+### Fixed
+- Added `jitpack.io` repository declaration in `pom.xml` to allow resolution of internal FastJava dependencies (`FastCore`) on JitPack CI.
+- Updated documentation and JitPack release tags.
 
 ## [0.1.0] - 2026-09-06
 
